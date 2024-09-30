@@ -6,26 +6,12 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { images } from '../constants';
 import CustomButton from './components/CustomButton';
 import { useEffect } from 'react';
-import axios from 'axios';
+
 
 export default function App() {
   const router = useRouter(); 
 
   
-
-const fetchData = async () => {
-  try {
-    const response = await axios.get('http://192.168.100.40:5205/api/signup');
-    console.warn(response.data);
-  } catch (error) {
-    console.error('Error fetching data:', error);
-  }
-};
-
-  
-  useEffect(() => {
-  fetchData();
-  }, []);
 
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: '#482121' }}>
