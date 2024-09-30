@@ -12,7 +12,6 @@ export default function App() {
   const router = useRouter(); 
 
 
- const ab=5;
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: '#482121' }}>
       <ScrollView contentContainerStyle={{ flexGrow: 1, justifyContent: 'center', alignItems: 'center' }}>
