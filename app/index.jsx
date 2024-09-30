@@ -13,20 +13,6 @@ export default function App() {
 
   
 
-const fetchData = async () => {
-  try {
-    const response = await axios.get('http://192.168.100.40:5205/api/signup');
-    console.warn(response.data);
-  } catch (error) {
-    console.error('Error fetching data:', error);
-  }
-};
-
-  
-  useEffect(() => {
-  fetchData();
-  }, []);
-
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: '#482121' }}>
       <ScrollView contentContainerStyle={{ flexGrow: 1, justifyContent: 'center', alignItems: 'center' }}>
