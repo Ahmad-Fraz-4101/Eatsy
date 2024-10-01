@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EatsyMobileApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+77850d56489cefbdf490a4a48c9268a7ab206c0e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d93fd367e11101391cd329a08764aaa8129b3d89")]
 [assembly: System.Reflection.AssemblyProductAttribute("EatsyMobileApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EatsyMobileApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
