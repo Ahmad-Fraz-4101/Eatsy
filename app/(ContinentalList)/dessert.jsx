@@ -5,6 +5,7 @@ const dessert = () => {
   return (
     <View>
       <Text>dessert</Text>
+      <Text> Checking the git push to remote</Text>
     </View>
   )
 }
